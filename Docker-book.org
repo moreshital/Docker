@@ -45,7 +45,7 @@
   + The Docker client talks to the Docker daemon, which does the heavy lifting
     of building, running, and distributing your Docker containers
    
-                      [[./images/architecture.png]]
+                      [[https://docs.docker.com/engine/article-img/architecture.svg]]
 * Getting started with Docker
 ** Docker images and containers
  + Docker Image ::
@@ -81,7 +81,7 @@
    + The Docker image is read-only. When Docker runs a container from an image, it
      adds a read-write layer on top of the image in which your application can then run.
 
-   [[./images/docker-layer.jpg]]
+   [[https://image.slidesharecdn.com/dockerintro-150425140441-conversion-gate01/95/docker-introduccin-flisol-2015-huancayo-21-638.jpg?cb=1429988727]]
    
 ** How to Install docker on Ubuntu 14.04
   Installation Instructions on Ubuntu:
